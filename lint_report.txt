@@ -1,8 +1,12 @@
+************* Module src.cli
+src/cli.py:18:0: C0303: Trailing whitespace (trailing-whitespace)
+src/cli.py:61:0: C0304: Final newline missing (missing-final-newline)
+src/cli.py:55:11: W0718: Catching too general exception Exception (broad-exception-caught)
+src/cli.py:61:4: E1120: No value for argument 'operation' in function call (no-value-for-parameter)
+src/cli.py:61:4: E1120: No value for argument 'num1' in function call (no-value-for-parameter)
 ************* Module src.calculator
-src/calculator.py:18:0: C0303: Trailing whitespace (trailing-whitespace)
-src/calculator.py:30:0: C0303: Trailing whitespace (trailing-whitespace)
-src/calculator.py:46:1: W0511: TODO: Students will add multiply, divide, power, sqrt functions (fixme)
+src/calculator.py:53:1: W0511: TODO: Students will add multiply, divide, power, sqrt functions (fixme)
 
 ------------------------------------------------------------------
-Your code has been rated at 9.00/10 (previous run: 9.00/10, +0.00)
+Your code has been rated at 7.81/10 (previous run: 7.81/10, +0.00)
 
