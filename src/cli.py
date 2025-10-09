@@ -5,7 +5,6 @@ Example: python src/cli.py add 5 3
 
 import sys
 import click
-# Note the change: 'src.calculator' is used for module imports from the project root.
 from src.calculator import add, subtract, multiply, divide, power, square_root
 
 
@@ -15,7 +14,7 @@ from src.calculator import add, subtract, multiply, divide, power, square_root
 @click.argument("num2", type=float, required=False)
 def calculate(operation, num1, num2=None):
     """Simple calculator CLI"""
-    
+
     # List of operations that require a second number (binary operations)
     binary_operations = ["add", "subtract", "multiply", "divide", "power"]
 
